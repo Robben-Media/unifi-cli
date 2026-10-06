@@ -9,7 +9,7 @@ import (
 )
 
 var (
-	errIDRequired       = errors.New("id is required")
+	errIDRequired        = errors.New("id is required")
 	errMetricTypeInvalid = errors.New("metric type must be '5m' or '1h'")
 )
 
